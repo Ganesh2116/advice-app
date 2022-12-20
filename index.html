@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-gray-800 flex flex-col justify-center items-center min-h-screen gap-5 ">
+    <div class="text-green-600 text-2xl font-bold">
+      <p>ADVICE</p>
+    </div>
+    <div class="bg-slate-600 p-4 text-center w-3/4 rounded-lg relative">
+      <div class="py-2">
+        <p class="text-green-600 text-sm font-semibold" id="title">
+      
+        </p>
+      </div>
+      <div class="py-2">
+        <P class="text-slate-100 font-semibold text-lg" id="text">
+         
+        </P>
+      </div>
+      <div class="py-4 mb-4 ">
+      <img 
+      class=" flex m-auto"
+      src="images/pattern-divider-mobile.svg" alt=""
+      >
+      </div>
+      <div class="absolute left-1/2 transform -translate-x-1/2 -mt-2 tooltip " data-tip="click and see advice"> 
+        <button 
+        class="btn rounded-full px-0"
+        id="btn">
+          <img
+        class="p-3 bg-green-300 rounded-full" 
+        src="images/icon-dice.svg" alt=" "
+        >
+        </button>
+      </div>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
